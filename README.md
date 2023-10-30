@@ -1,6 +1,6 @@
 <h1 align="center"> Aplicação de Controle Financeiro </h1>
 
-![CoinTrack Logo](![image](https://github.com/Azkalum/FinancasDados/assets/98130954/9bf33151-9b76-43d7-83bb-e4fae1f59130))
+![CoinTrack Logo]((https://github.com/Azkalum/FinancasDados/assets/98130954/ce35dcf1-712e-40ce-b680-3ab605507a51))
 
 Uma aplicação de controle financeiro desenvolvida em Kotlin e Android Studio.
 
@@ -21,13 +21,11 @@ O CoinTrack é uma aplicação de controle financeiro que permite aos usuários 
 
 ## Demonstração
 
-![Demonstração do App:]()
+![Tela Inicial:](https://github.com/Azkalum/FinancasDados/assets/98130954/998c9714-d186-47a2-9d3a-17aabcede04d)
 
-![Tela Inicial:](![image](https://github.com/Azkalum/FinancasDados/assets/98130954/5b515575-c07f-4c4d-9e8c-06f2d6a2fa9e))
+![Tela Extrato:](https://github.com/Azkalum/FinancasDados/assets/98130954/0d0ba2c6-8dca-43d7-b85e-d17709678a02)
 
-![Tela Extrato:](![image](https://github.com/Azkalum/FinancasDados/assets/98130954/f1b9da01-03bb-4e5e-bce8-b7d23ed2795b))
-
-![Tela Nova transação:](![image](https://github.com/Azkalum/FinancasDados/assets/98130954/f04a96c9-e800-4fb1-9eca-abfc75281f97))
+![Tela Nova transação:](https://github.com/Azkalum/FinancasDados/assets/98130954/f86276eb-e7b1-4d00-b2fb-83511daa7e8a)
 
 ## Pré-requisitos
 
