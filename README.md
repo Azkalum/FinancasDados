@@ -1,6 +1,6 @@
 <h1 align="center"> Aplicação de Controle Financeiro </h1>
 
-![CoinTrack Logo]((https://github.com/Azkalum/FinancasDados/assets/98130954/ce35dcf1-712e-40ce-b680-3ab605507a51))
+![CoinTrack Logo:](https://github.com/Azkalum/FinancasDados/assets/98130954/1e381012-399b-47fa-bed5-af5886c6f412)
 
 Uma aplicação de controle financeiro desenvolvida em Kotlin e Android Studio.
 
