@@ -14,10 +14,9 @@ Uma aplicação de controle financeiro desenvolvida em Kotlin e Android Studio.
 - [Demonstração](#demonstração)
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
-- [Como Usar](#como-usar)
+- [Stack Utilizada](#stack-utilizada)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Faculdade](#faculdade)
 
 ## Visão Geral
 
@@ -46,6 +45,10 @@ Siga os passos abaixo para clonar e executar o projeto localmente:
 
    ```sh
    git clone https://github.com/Azkalum/FinancasDados.git
+2. Buildar o Gradle do Projeto
+3. Ter um celular Android com requisitos mínimos configurado (caso for em Computadores e não em celulares)
+4. Rodar o projeto
+   
 ## Stack utilizada
 
 **Kotlin:** 1.6.21
