@@ -4,6 +4,8 @@
    
 ![logo](https://github.com/Azkalum/FinancasDados/assets/98130954/ad7b6c91-933c-43bc-8d76-fd4f82b8ccca)
 
+</div>
+
 Uma aplicação de controle financeiro desenvolvida em Kotlin e Android Studio.
 
 ## Tabela de Conteúdo
