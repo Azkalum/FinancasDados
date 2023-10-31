@@ -1,4 +1,4 @@
-<h1 align="center"> Aplicação de Controle Financeiro </h1>
+<h1 align="center"> Aplicação de Controle de Gastos </h1>
 
 <div align="center">
    
