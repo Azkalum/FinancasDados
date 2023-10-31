@@ -1,8 +1,8 @@
 <h1 align="center"> Aplicação de Controle Financeiro </h1>
 
 <div align="center">
-![logo](https://github.com/Azkalum/FinancasDados/assets/98130954/5cd76b42-7a90-42e4-9359-f83578aad36a)
-</div>
+   
+![logo](https://github.com/Azkalum/FinancasDados/assets/98130954/ad7b6c91-933c-43bc-8d76-fd4f82b8ccca)
 
 Uma aplicação de controle financeiro desenvolvida em Kotlin e Android Studio.
 
