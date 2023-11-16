@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -27,13 +27,15 @@
             app:layout_constraintBottom_toBottomOf="@+id/header"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/header"
-            app:srcCompat="@drawable/ic_arrow_back" />
+            app:srcCompat="@drawable/ic_arrow_back"
+            android:focusable="true"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/tvNewTransaction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nova Transação"
+            android:text="@string/nova_transa_o"
             android:textColor="@color/white"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/header"
@@ -55,7 +57,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Descrição"
+                android:hint="@string/descri_o"
                 android:inputType="text"
                 android:textSize="18sp" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -73,7 +75,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor"
+                android:hint="@string/valor"
                 android:inputType="numberDecimal"
                 android:textSize="18sp" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -92,23 +94,23 @@
                 android:id="@+id/rbSavedMoney"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:text="Poupei" />
+                android:layout_marginEnd="15dp"
+                android:text="@string/poupei" />
 
             <RadioButton
                 android:id="@+id/rbSpentMoney"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="15dp"
                 android:checked="true"
-                android:text="Gastei" />
+                android:text="@string/gastei" />
         </RadioGroup>
 
         <DatePicker
             android:id="@+id/dpDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="35dp"
             android:background="#D5D6D4"
             android:calendarViewShown="false"
             android:datePickerMode="spinner"
@@ -121,7 +123,7 @@
             android:id="@+id/btnCancel"
             style="@style/ButtonCancel"
             android:layout_margin="10dp"
-            android:text="Cancelar"
+            android:text="@string/cancelar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btnSave"
@@ -131,7 +133,7 @@
             android:id="@+id/btnSave"
             style="@style/ButtonSave"
             android:layout_margin="10dp"
-            android:text="Salvar"
+            android:text="@string/salvar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btnCancel"
             app:layout_constraintStart_toStartOf="parent"

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FinancasDados</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="gastei">Gastei</string>
+    <string name="poupei">Poupei</string>
+    <string name="valor">Valor</string>
+    <string name="descri_o">Descrição</string>
+    <string name="nova_transa_o">Nova Transação</string>
 </resources>
